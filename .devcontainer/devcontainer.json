@@ -1,6 +1,33 @@
 {
-	"image": "mcr.microsoft.com/devcontainers/universal:2",
-	"features": {
-		"ghcr.io/devcontainers-extra/features/node-asdf:0": {}
-	}
+  "name": "Node.js",
+
+  // Use the latest JavaScript-Node devcontainer image
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:latest",
+
+  // Uncomment and customize features as needed
+  // "features": {},
+
+  // Forward ports as required for your project
+  // "forwardPorts": [],
+
+  // Run commands after the container is created (e.g., installing dependencies)
+  // "postCreateCommand": "yarn install",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "vscode-icons-team.vscode-icons",
+        "wayou.vscode-todo-highlight"
+      ],
+      "settings": {
+        "editor.fontSize": 32,
+        "terminal.integrated.fontSize": 24,
+        "editor.wordWrap": "on"
+      }
+    }
+  },
+
+  // Optionally connect as root
+  // "remoteUser": "root"
 }
