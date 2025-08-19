@@ -13,3 +13,7 @@
 const cars = "civic-cruze-polo-vento-rapid"
 let carlist=cars.split("-")
 console.log(carlist[2])
+
+// Explicitly define strings- copy paste this in browser console and you can see all methods under the prototype section
+const myString = new String("dollar")
+console.log(myString)
