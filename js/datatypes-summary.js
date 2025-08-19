@@ -13,3 +13,8 @@
 // DataType of Non Primitive is Object: (FunctionObject for functions)
 // Undefined is a datatype itself
 
+// +++++++++++++++++++++++++++++++++++++++ //
+// Primitive Datatype - Stack Memory
+// You get a copy of value to play with
+// Reference Datatype - Heap Memory
+// you get actual memory reference.
