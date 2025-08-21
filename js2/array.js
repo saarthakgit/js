@@ -8,7 +8,7 @@ const names = ["sarthak","ashwin","virat","rudra"]
 // console.log(arr)
 // console.log(names)
 // console.log(arr.pop()): last value deleted and returned
-// arr.unshift(99) : adds element at "zero" index, causes all other array items to relocate and thus increases load on machine.
+// arr.unshift(99) : adds element at "zero" index, causes all other array elements to relocate and thus increases load on machine.
 // arr.unshift("cat")
 // arr.shift() : removes element at zero index
 // console.log(arr.includes(7))
@@ -16,7 +16,7 @@ const names = ["sarthak","ashwin","virat","rudra"]
 // console.log(arr.at(5))
 // console.log(arr.reverse())
 
-// const newarr = names.join(" ") : returns string separated by " " comprising of elements in name
+// const newarr = names.join(" ") : returns string separated by " " comprising of elements in array
 // console.log(newarr)
 
 // INTERVIEW Q: slice vs splice

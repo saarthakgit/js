@@ -3,7 +3,7 @@
 // console.log(null>0); => false
 // console.log(null==0); =>false
 // console.log(0==null); =>false
-// console.log(null==undefined); =>true
+// console.log(null==undefined); => true
 // console.log(undefined == 0); => false
 // console.log(""==false); => true
 // console.log("1"==true); =>true
@@ -18,3 +18,4 @@
 // console.log(null===0); => FALSE
 // console.log("2"===2); => FALSE
 
+// strict check is more convinient and precise

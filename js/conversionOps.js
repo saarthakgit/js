@@ -26,10 +26,10 @@ let value = 5
 let neg = -value
 // console.log(neg);
 
-// console.log("1"+1)
-// console.log("1"+1)
-// console.log("1"+1+2)
-// console.log(1+1+20+"2")
+// console.log("1"+1) =11
+// console.log("1"+1) =11
+// console.log("1"+1+2) =112
+// console.log(1+1+20+"2") =222
 
 // ***execution from left to right
 
