@@ -50,3 +50,24 @@ switch (month) {
         console.log("no match");
         break;
 }
+
+
+// Nullish Coalescing Operator (??)
+// used to handle "null" / "undefined"
+// prevents assigning them in a var
+let pop;
+// pop = null ?? 10
+// pop = 100 ?? null
+//  pop = 1000 ?? undefined
+//pop = undefined ?? 45
+// pop = null??50??10
+// console.log(pop);
+
+// assigns the first value it fetches, other than null/undefined
+
+// Terniary Operator
+// syntax:
+// specify condition ? if true : if false
+
+// const price = 100
+// price > 80 ? console.log("expensive") : console.log("affordable")
